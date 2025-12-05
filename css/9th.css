@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, lightblue, lightgreen);
+    height: 200vh;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.flex-item {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+    height: 300px;
+    width: 30%;
+    background-color: rgb(227, 117, 117);
+}
+
+/* card */
+.card-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 0 5%;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: azure;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* card */
+.hero {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://picsum.photos/1200/600) center/cover;
+    color: white;
+}
+
+/* hero */
+.hero h1 {
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.nav-list {
+    display:
+        none;
+}
+
+.nav-list.active {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+    .menu-toggle {
+        display:
+            none;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
+/* GEMINI */
+.content-section {
+    display: flex;
+    align-items: stretch; 
+    width: 800px;
+   
+    background-color: lightgreen; 
+    padding: 20px; 
+}
+
+.media-box, .text-box { 
+    flex: 1; 
+    padding: 0; 
+    box-sizing: border-box; }
+
+
+.media-box {
+    flex: 0 0 30%;}
+
+
+.text-box {
+    flex: 1;
+    background-color: lightgreen;
+    margin-left: 20px; 
+}
+
+
+.media-box img {
+    width: 100%;
+    height: 100%;
+    min-height: 200px; 
+    background-color: lightgray; 
+    border: 1px solid white; 
+}
+/* GEMINI */
