@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIR KHAM Fitness</title>
+    <link rel="stylesheet" href="css/fitness2.css" />
+</head>
+
+<body>
+    <!--  HEADER -->
+    <header class="site-header">
+        <div class="container header__inner">
+            <a href="#hero" class="logo">
+                <span class="logo__main">SIR<span>KHAM</span></span>
+                <span class="logo__sub">Fitness Club</span>
+            </a>
+
+            <nav class="nav" id="nav" aria-label="Main navigation">
+                <a href="#hero" class="nav__link">Home</a>
+                <a href="#programs" class="nav__link">Programs</a>
+                <a href="#trainers" class="nav__link">Coaches</a>
+                <a href="#gallery" class="nav__link">Gallery</a>
+                <a href="#pricing" class="nav__link">Pricing</a>
+                <a href="#bmi" class="nav__link">BMI</a>
+                <a href="#contact" class="nav__link nav__link--cta">Join Now</a>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!--  MAIN  -->
+    <main>
+        <!--  HERO  -->
+        <section class="hero" id="hero" aria-labelledby="hero-title">
+            <div class="container hero__inner">
+                <div class="hero__text">
+                    <h1 id="hero-title">Train like a <span>SIR KHAM</span>.</h1>
+                    <p class="hero__subtitle">
+                        Performance-focused programs, expert coaches, and a community built
+                        for serious results.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#pricing" class="btn btn--primary">View Plans</a>
+                        <a href="#contact" class="btn btn--ghost">Book a Free Session</a>
+                    </div>
+
+                    <dl class="hero__stats" aria-label="Gym statistics">
+                        <div class="hero__stat">
+                            <dt>Active Members</dt>
+                            <dd>300+</dd>
+
+                            <dt>Classes / Week</dt>
+                            <dd>40+</dd>
+
+                            <dt>Gym Access</dt>
+                            <dd>24/7</dd>
+                        </div>
+
+                    </dl>
+                </div>
+
+                <div class="hero__media">
+                    <figure class="hero__photo">
+                        <!-- Replace with your own hero image -->
+                        <img src="https://images.unsplash.com/photo-1700784795176-7ff886439d79?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Athlete training with barbell in a gym" />
+                    </figure>
+
+                    <aside class="hero-card" aria-label="Today's training focus">
+                        <h2 class="hero-card__title">Today’s Focus</h2>
+                        <p class="hero-card__tag">Speed &amp; Power</p>
+                        <ul class="hero-card__list">
+                            <li>Sprint Intervals</li>
+                            <li>Plyometric Jumps</li>
+                            <li>Trap Bar Deadlifts</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROGRAMS -->
+        <section class="section" id="programs" aria-labelledby="programs-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="programs-title">Training Programs</h2>
+                    <p>Choose the pathway that matches your goals and experience level.</p>
+                </header>
+
+                <div class="grid grid--3">
+                    <article class="card">
+                        <h3>Strength &amp; Conditioning</h3>
+                        <p>
+                            Build raw strength and power with structured barbell, dumbbell,
+                            and accessory training.
+                        </p>
+                        <ul class="card__list">
+                            <li>Progressive overload plans</li>
+                            <li>3–5 guided sessions / week</li>
+                            <li>Form &amp; technique coaching</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>HIIT &amp; Fat Loss</h3>
+                        <p>
+                            High-intensity intervals designed to torch calories and improve
+                            your conditioning.
+                        </p>
+                        <ul class="card__list">
+                            <li>Full-body circuits</li>
+                            <li>Short &amp; effective sessions</li>
+                            <li>Great for busy schedules</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3>Sports Performance</h3>
+                        <p>
+                            Sport-specific training to boost your speed, agility, and power
+                            on the field or court.
+                        </p>
+                        <ul class="card__list">
+                            <li>Speed &amp; agility drills</li>
+                            <li>Explosive power work</li>
+                            <li>In-season &amp; off-season plans</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- COACHES -->
+        <section class="section section--alt" id="trainers" aria-labelledby="coaches-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="coaches-title">Meet the Coaches</h2>
+                    <p>Certified professionals dedicated to your performance and safety.</p>
+                </header>
+
+                <div class="grid grid--3">
+                    <article class="card card--outline coach">
+                        <header class="coach__header">
+                            <div class="coach__avatar">
+                                <img src="https://images.unsplash.com/photo-1653587108842-58a9416a0ce9?q=80&w=930&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Coach KHAM - Strength specialist" />
+                            </div>
+                            <div>
+                                <h3>SIR KHAM</h3>
+                                <p class="coach__role">Strength Coach</p>
+                            </div>
+                        </header>
+                        <p>
+                            Powerlifting and strength specialist with over 10 years of
+                            experience helping athletes get stronger safely.
+                        </p>
+                    </article>
+
+                    <article class="card card--outline coach">
+                        <header class="coach__header">
+                            <div class="coach__avatar">
+                                <img src="https://media.istockphoto.com/id/2160741811/ja/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E8%83%8C%E6%99%AF%E3%81%AB%E7%99%BD%E3%81%84t%E3%82%B7%E3%83%A3%E3%83%84%E3%82%92%E7%9D%80%E3%81%9F%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%81%AE%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%86%E3%82%A3%E3%81%AA%E7%86%9F%E5%A5%B3%E5%B9%B4%E9%85%8D%E3%81%AE%E7%94%B7%E6%80%A7.jpg?s=1024x1024&w=is&k=20&c=FvIRU-57ORkvGHvAbjfbvSJwI9JfoRKLwZnPAZdQtYg="
+                                    alt="Coach Mia - Conditioning specialist" />
+                            </div>
+                            <div>
+                                <h3>Mia Johnson</h3>
+                                <p class="coach__role">Conditioning &amp; HIIT</p>
+                            </div>
+                        </header>
+                        <p>
+                            Focused on metabolic conditioning, fat loss, and smart HIIT
+                            protocols that don’t burn you out.
+                        </p>
+                    </article>
+
+                    <article class="card card--outline coach">
+                        <header class="coach__header">
+                            <div class="coach__avatar">
+                                <img src="https://images.unsplash.com/photo-1762746301772-dc80ac6beffe?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Coach Ken - Sports performance coach" />
+                            </div>
+                            <div>
+                                <h3>Ken Tanaka</h3>
+                                <p class="coach__role">Sports Performance</p>
+                            </div>
+                        </header>
+                        <p>
+                            Works with youth and adult athletes to improve quickness, agility,
+                            and sport-specific performance.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="section" id="gallery" aria-labelledby="gallery-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="gallery-title">Gym Gallery</h2>
+                    <p>A peek inside our training environment and community.</p>
+                </header>
+
+                <div class="grid grid--3 gallery">
+                    <figure class="gallery__item">
+                        <img src="https://images.unsplash.com/photo-1570829460005-c840387bb1ca?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Free weights and racks area" class="gallery__img" />
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1550&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cardio machines and functional space" class="gallery__img" />
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="https://images.unsplash.com/photo-1734668490540-e98ee11f5b4a?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Group training session in progress" class="gallery__img" />
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING -->
+        <section class="section section--alt" id="pricing" aria-labelledby="pricing-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="pricing-title">Membership Plans</h2>
+                    <p>Flexible options for beginners, serious lifters, and competitive athletes.</p>
+                </header>
+
+                <div class="grid grid--3">
+                    <article class="card">
+                        <h3>Basic</h3>
+                        <p class="price"><span>$</span>29<span>/mo</span></p>
+                        <ul class="card__list">
+                            <li>Off-peak gym access</li>
+                            <li>2 classes per week</li>
+                            <li>Locker room access</li>
+                        </ul>
+                        <a href="#contact" class="btn btn--ghost full-width">Get Started</a>
+                    </article>
+
+                    <article class="card card--highlight">
+                        <div class="card__badge">Most Popular</div>
+                        <h3>Pro</h3>
+                        <p class="price"><span>$</span>49<span>/mo</span></p>
+                        <ul class="card__list">
+                            <li>24/7 gym access</li>
+                            <li>Unlimited classes</li>
+                            <li>Monthly performance check</li>
+                        </ul>
+                        <a href="#contact" class="btn btn--primary full-width">Choose Pro</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Elite</h3>
+                        <p class="price"><span>$</span>89<span>/mo</span></p>
+                        <ul class="card__list">
+                            <li>All Pro benefits</li>
+                            <li>Weekly 1:1 coaching</li>
+                            <li>Custom training &amp; nutrition</li>
+                        </ul>
+                        <a href="#contact" class="btn btn--ghost full-width">Go Elite</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- BMI CALCULATOR -->
+        <section class="section" id="bmi" aria-labelledby="bmi-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="bmi-title">BMI Calculator</h2>
+                    <p>Quickly estimate your Body Mass Index as a rough starting point.</p>
+                </header>
+
+                <div class="bmi">
+                    <form id="bmiForm" class="bmi__form" novalidate>
+                        <div class="form-group">
+                            <label for="height">Height (cm)</label>
+                            <input type="number" id="height" min="50" max="250" required placeholder="e.g. 175" />
+                        </div>
+                        <div class="form-group">
+                            <label for="weight">Weight (kg)</label>
+                            <input type="number" id="weight" min="20" max="300" required placeholder="e.g. 70" />
+                        </div>
+                        <button type="submit" class="btn btn--primary full-width">
+                            Calculate BMI
+                        </button>
+                    </form>
+
+                    <div class="bmi__result" id="bmiResult">
+                        Enter your height and weight to see your BMI range.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="contact-title">Contact &amp; Join</h2>
+                    <p>Ready to start? Tell us about your goals and we’ll get in touch.</p>
+                </header>
+
+                <div class="grid contact">
+                    <form class="contact__form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="Your name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="you@example.com" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Tell us about your training goals..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary full-width">
+                            Send Message
+                        </button>
+                        <p class="contact__note" id="contactNote" aria-live="polite"></p>
+                    </form>
+
+                    <aside class="contact__info">
+                        <h3>Gym Info</h3>
+                        <p><strong>Location:</strong> 123 KAK Street, AUNGBAN</p>
+                        <p><strong>Phone:</strong> +81-00-0000-0000</p>
+                        <p><strong>Email:</strong> hello@proathletefitness.com</p>
+                        <p class="contact__highlight">
+                            Drop in for a free one-day pass and full facility tour.
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer__inner">
+            <p>© <span id="year"></span> ProAthlete Fitness. All rights reserved.</p>
+            <p>Built for performance, not excuses.</p>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
