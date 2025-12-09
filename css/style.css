@@ -1,22 +1,18 @@
-body {
+ body {
+        background: #513431;
+        margin: 0;
+      }
 
-    background-color: rgb(208, 220, 77);
-}
+      #backgroundImage {
+        border: none;
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+      }
 
-nav {
-    background-color: rgb(77, 220, 208);
-}
-
-nav ul {
-    display: flex;
-    gap: .75rem;
-    list-style: none;
-}
-
-.container {
-    background-color: rgb(220, 77, 208);
-}
-
-#main {
-    background-color: rgb(26, 255, 0);
-}
+      [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
