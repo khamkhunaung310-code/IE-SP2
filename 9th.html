@@ -4,86 +4,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS</title>
+    <title>COFFEE TIME</title>
     <link rel="stylesheet" href="css/9th.css">
 </head>
 
 <body>
 
     <nav class="navbar">
-        <a href="#" class="logo">Logo</a>
-        <a class="menu-toggle" aria-label="メニュー">☰</a>
+        <div class="nav-left">
+            <a href="#" class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/924/924514.png" alt="Coffee Logo">
+            </a>
+            <h1 class="brand-name">Coffee Time</h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
         <ul class="nav-list">
-            <li><a href="#">ホーム</a></li>
-            <li><a href="#">サービス</a></li>
-            <li><a href="#">お問い合わせ</a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
         </ul>
+
+        <div class="nav-search">
+            <input type="text" placeholder="Search....." />
+            <button>🔍</button>
+        </div>
     </nav>
 
     <section class="hero">
-        <h1>メインキャッチコピー</h1>
-        <p>サブテキスト</p>
-        <a href="#cta" class="btn">今すぐ始める</a>
-
+        <h1>Let's make a cup of coffee</h1>
+        <p>Welcome</p>
+        <a href="#cta" class="btn"> Start learning</a>
     </section>
 
-    <section class="flex-container">
-        <div class="flex-item">アイテム1</div>
-        <div class="flex-item">アイテム2</div>
-        <div class="flex-item">アイテム3</div>
+    <section class="coffee-note">
+        <div class="note-box">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Coffee cup">
+            <div class="note-text">
+                <h2>Informative / Descriptive</h2>
+                <p>
+                    “Each cup tells a story — of beans grown under tropical sun, roasted to perfection, and brewed with
+                    care. Coffee connects people through time, culture, and craft.”
+                </p>
+            </div>
+        </div>
     </section>
+
     <!-- ここから書く -->
     <section class="card-grid">
         <article class="card">
-            <img src="https://picsum.photos/800/600" alt="説明">
-            <h3>title</h3>
-            <p>本文テキスト</p>
+            <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740"
+                alt="Espresso">
+            <h3>ESPRESSO</h3>
+            <p> "A precise, potent moment. The espresso is the heart of the bean, extracted in a single, unwavering
+                shot. It is a swift, dark current of pure energy and flavor."</p>
         </article>
 
         <article class="card">
-            <img src="https://picsum.photos/800/600" alt="説明">
-            <h3>title</h3>
-            <p>本文テキスト</p>
+            <img src="https://images.unsplash.com/photo-1503240778100-fd245e17a273?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740"
+                alt="Coffee cup" alt="Americano">
+            <h3>AMERICANO</h3>
+            <p>"The Americano: A moment of bold clarity diluted by the quiet mercy of water. It is the heart of espresso
+                given room to breathe."</p>
+
         </article>
         <article class="card">
-            <img src="https://picsum.photos/800/600" alt="説明">
-            <h3>title</h3>
-            <p>本文テキスト</p>
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=3024"
+                alt="Cappuccino">
+            <h3>CAPPUCCINO</h3>
+            <p>"The perfect triumvirate: Strength, silk, and cloud. In the Cappuccino, the bold earthiness of the shot
+                is lifted into comfort by a whisper of foam and the smooth warmth of milk."</p>
         </article>
         <article class="card">
-            <img src="https://picsum.photos/800/600" alt="説明">
-            <h3>title</h3>
-            <p>本文テキスト</p>
+            <img src="https://plus.unsplash.com/premium_photo-1664970900098-2676029e6a99?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740"
+                alt="Latte">
+            <h3>LATTE</h3>
+            <p>"A slow, comforting embrace. The Latte is espresso wrapped in a velvet cloak of milk. It is liquid
+                warmth, a soft start, or a perfect pause in the day."</p>
         </article>
         <article class="card">
-            <img src="https://picsum.photos/800/600" alt="説明">
-            <h3>title</h3>
-            <p>本文テキスト</p>
+            <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1742"
+                alt="Matcha">
+            <h3>MATCHA</h3>
+            <p>"A slow sip of verdant peace. The Matcha Latte is liquid earth and light, grounding your spirit with its
+                deep color and smooth, quiet energy. A ceremony in a cup."</p>
         </article>
         <article class="card">
-            <img src="https://picsum.photos/800/600" alt="説明">
-            <h3>title</h3>
-            <p>本文テキスト</p>
+            <img src="https://images.unsplash.com/photo-1649023384041-555d35454897?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1542"
+                alt="Mocha">
+            <h3>MOCHA</h3>
+            <p>"Where espresso meets indulgence. The Mocha is a dark, rich conversation between coffee's warmth and
+                chocolate's comfort. It is the perfect, sweet luxury for a moment of cozy bliss."</p>
+        </article>
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1611872515743-b81d6c30605c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740"
+                alt="Cortado">
+            <h3>CORTADO</h3>
+            <p>"The perfect, powerful balance. The Cortado is coffee's clean equation: the bold conviction of espresso,
+                precisely tempered by the velvety softness of milk. It is intensity, refined."</p>
+        </article>
+        <article class="card">
+            <img src="https://images.unsplash.com/photo-1707765733504-729f8defd05d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1550"
+                alt="Flat White">
+            <h3>FLAT WHITE</h3>
+            <p>"Espresso's depth, delivered on a smooth, unbroken plane. The Flat White is a silent promise of strength
+                and subtlety, where velvety milk melts seamlessly into the bold heart of the coffee."</p>
         </article>
     </section>
     <!-- ここまで書く -->
-<!-- GEMINI -->
+    <!-- GEMINI -->
     <div class="content-section">
         <div class="media-box">
-            <img src="https://picsum.photos/800/600" alt="Description of the image">
+            <img src="https://cdn-icons-png.flaticon.com/512/924/924514.png" alt="coffee beans">
         </div>
 
         <div class="text-box">
-            <h2>Title</h2>
-            <p>TEXTTEXTTEXTTEXTTEXTTEXT...</p>
-            <p>TEXTTEXTTEXTTEXTTEXTTEXT...</p>
-            <p>TEXTTEXTTEXTTEXTTEXTTEXT...</p>
-            <p>TEXTTEXTTEXTTEXTTEXTTEXT...</p>
-            <p>TEXTTEXTTEXTTEXTTEXTTEXT...</p>
+            <h2>Calm and Aesthetic</h2>
+            <p>“Coffee is more than a drink — it’s a quiet ritual. The warmth, aroma, and slow swirl of flavor remind us
+                to pause, breathe, and savor the moment.”</p>
         </div>
     </div>
-<!-- GEMINI -->
+    <!-- GEMINI -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
 
+            <div class="footer-left">
+                <img src="https://cdn-icons-png.flaticon.com/512/924/924514.png" alt="Coffee Logo" class="footer-logo">
+                <h3>COFFEE TIME</h3>
+                <p>No copyright © 2025 — Free to use</p>
+            </div>
+
+            <div class="footer-center">
+                <p><strong>Contact</strong></p>
+                <p>Email: <a href="mailto:coffee@example.com">coffee@example.com</a></p>
+                <p>Phone: 090-0000-0000</p>
+            </div>
+
+            <div class="footer-right">
+                <p><strong>Follow us</strong></p>
+                <a href="#" class="social">Instagram</a> |
+                <a href="#" class="social">Twitter</a> |
+                <a href="#" class="social">Facebook</a>
+            </div>
+
+        </div>
+    </footer>
 
 </body>
 
